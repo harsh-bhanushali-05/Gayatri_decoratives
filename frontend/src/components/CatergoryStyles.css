@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@200&display=swap');
+.solve{
+    position: relative;
+    bottom: 5px;
+    background: white;
+}
+.gradient{
+    position: relative;
+    bottom: 5px;
+    margin: 0;
+  
+}
+.heading{
+    font-family: 'Handjet', cursive;
+    font-size: 4rem;
+    letter-spacing: 0.4rem;
+    margin: 0;
+}

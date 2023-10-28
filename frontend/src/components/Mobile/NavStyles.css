@@ -1,0 +1,23 @@
+.navbar{
+    max-height: 10vh;
+    display: flex;
+    justify-content: center,space-between;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.hamburger{
+    border: none;
+    position: relative;
+    left: 30vw;
+    width: 10%;
+}
+.logo{
+    margin-top: 3vh;
+    margin-left: 1.5vw;
+    font-size: 6vw;
+}
+.divider{
+  background-color: gray;
+  height: 1px;
+  width: 200vw;
+}

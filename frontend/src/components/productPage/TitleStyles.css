@@ -1,0 +1,67 @@
+.line-through {
+    width: 100%;
+    height: 2px;
+    background-color: lightgrey;
+    position: relative;
+  }
+  .line-through-clear {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    position: relative;
+  }
+  .percent {
+    color: red;
+    font-weight: 300;
+    font-size: 1.8rem;
+  }
+  .price{
+    justify-content: left;
+    margin: auto 0 auto 0 ;
+    font-size: 2.5rem;
+  }
+  .mrp-line{
+    text-decoration: line-through;
+  }
+  .MRPStyle{
+    font-weight: 200;
+    margin-top: 0;
+    padding: 0;
+  }
+  .loc{
+    margin-left: 5%;
+    display: flex;
+    justify-content: left;
+    font-size: 1.3rem;
+  }
+  .aka{
+    min-height: 100%;
+  }
+  .buyit{
+    border-radius: 20px;
+  }
+  .button-buy-now{
+    margin-top: 5vh;
+    margin-bottom: 4vh;
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+  .buyit a {
+    border-radius: 20px;
+    color:black;
+    text-decoration: none;
+  }
+.buyit :hover{
+
+  background-color: #94B9FF ;
+}
+.aaa{
+  position: relative;
+  top: 2px;
+}

@@ -1,0 +1,21 @@
+.title-prod{
+    text-align: center;
+    font-size: 8vw;
+}
+.prodCard-align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.widthCard{
+    max-width: 45%;
+}
+.product-image{
+    align-self: center;
+    align-items: center;
+}
+@media (max-width:960px) {
+    .product-image{
+    width: 50%;}
+}

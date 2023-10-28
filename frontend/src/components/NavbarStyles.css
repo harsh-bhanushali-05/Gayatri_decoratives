@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+.title{
+    font-family: 'Roboto Slab', serif;
+}
+
+.nav{
+    /* background-color:#ECE6DB; */
+    background: linear-gradient(to right, #CDFFD8, #94B9FF);
+}
+.All_prods{
+    color: black;
+    text-decoration: none;
+    justify-items: center;
+    justify-content: center;
+}

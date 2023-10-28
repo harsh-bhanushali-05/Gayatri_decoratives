@@ -1,0 +1,17 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.cover-image {
+    /* Make sure the image covers the whole screen */
+    position: relative;
+    z-index: -1;
+    /* top: 0; */
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+     /* Ensures the image scales while preserving aspect ratio */
+}

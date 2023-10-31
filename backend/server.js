@@ -6,7 +6,9 @@ const products = require("./routes/products");
 app.use(express.json());
 app.use("/API/Products", products);
 const cors = require('cors');
-app.use(cors());
+app.use(cors({
+    origin:"*",
+}));
 database.connect(process.env.Mongo_url).then(()=>
 {
     app.listen(process.env.PORT,()=>

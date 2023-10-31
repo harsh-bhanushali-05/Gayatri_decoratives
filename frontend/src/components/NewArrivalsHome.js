@@ -9,7 +9,8 @@ function NewArrivalsHome(props) {
   const [products, setProducts] = useState([]);
   useEffect(() => {
     async function f() {
-      Axios.get("/API/Products/New")
+      const u="https://gayatri-decoratives.onrender.com";
+      Axios.get(u+"/API/Products/New")
         .then((res) => {
           setProducts(res.data);
         })

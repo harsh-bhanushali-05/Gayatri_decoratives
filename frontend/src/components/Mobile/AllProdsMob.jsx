@@ -11,7 +11,8 @@ function AllProdsMob(props) {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await Axios.get("/API/Products/");
+         const u="https://gayatri-decoratives.onrender.com";
+        const response = await Axios.get(u+"/API/Products/");
         setProducts(response.data);
       } catch (error) {
         console.log(error);

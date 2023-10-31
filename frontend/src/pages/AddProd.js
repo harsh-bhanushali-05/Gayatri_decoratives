@@ -4,17 +4,18 @@ import "../components/AddProdStyles.css";
 function AddProd() {
   const { register, handleSubmit } = useForm({});
 
-  function onSubmit(data,event) {
+  function onSubmit(data, event) {
     event.preventDefault();
     console.log(data);
     // Axios.post("/",{method:"POST",body:JSON.stringify(data)});
     const jsonData = JSON.stringify(data);
+     const u="https://gayatri-decoratives.onrender.com";
 
-    Axios.post("/API/Products/", jsonData, {
+    Axios.post(u+"/API/Products/", jsonData, {
       headers: {
         "Content-Type": "application/json",
       },
-    })
+    });
     window.location.reload();
   }
 

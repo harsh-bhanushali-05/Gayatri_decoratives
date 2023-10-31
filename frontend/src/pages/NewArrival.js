@@ -13,8 +13,8 @@ function NewArrivals(props) {
   useEffect(() => {
     async function fetchData() {
       try {        
-        const u="https://gayatri-decoratives.onrender.com";
-        const response = await Axios.get(u+"/API/Products/New");
+        // const u="https://gayatri-decoratives.onrender.com";
+        const response = await Axios.get("/API/Products/New");
         setProducts(response.data);
       } catch (error) {
         console.log(error);

@@ -16,8 +16,8 @@ function ProductPage() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const u="https://gayatri-decoratives.onrender.com";
-        const response = await Axios.get(`${u}/API/Products/${decodedValue}`);
+        // const u="https://gayatri-decoratives.onrender.com";
+        const response = await Axios.get(`/API/Products/${decodedValue}`);
         setProducts(response.data);
       } catch (error) {
         console.error(error);

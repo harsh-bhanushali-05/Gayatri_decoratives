@@ -14,8 +14,8 @@ function ProductPage() {
   const [products, setProducts] = useState([]);
   useEffect(() => {
     async function f() {
-      const u="https://gayatri-decoratives.onrender.com";
-      Axios.get(`${u}/API/Products/${decodedValue}`)
+      // const u="https://gayatri-decoratives.onrender.com";
+      Axios.get(`/API/Products/${decodedValue}`)
         .then((res) => {
           setProducts(res.data);
         })

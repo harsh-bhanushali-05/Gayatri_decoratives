@@ -15,9 +15,9 @@ function CatProducts(props) {
   const [products, setProducts] = useState([]);
   useEffect(() => {
     async function f() {
-       const u="https://gayatri-decoratives.onrender.com";
+      //  const u="https://gayatri-decoratives.onrender.com";
 
-      Axios.get(u+"/API/Products/cat/" + decodedValue)
+      Axios.get("/API/Products/cat/" + decodedValue)
         .then((res) => {
           setProducts(res.data);
         })

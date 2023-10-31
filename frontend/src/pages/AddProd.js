@@ -9,9 +9,9 @@ function AddProd() {
     console.log(data);
     // Axios.post("/",{method:"POST",body:JSON.stringify(data)});
     const jsonData = JSON.stringify(data);
-     const u="https://gayatri-decoratives.onrender.com";
+    //  const u="https://gayatri-decoratives.onrender.com";
 
-    Axios.post(u+"/API/Products/", jsonData, {
+    Axios.post("/API/Products/", jsonData, {
       headers: {
         "Content-Type": "application/json",
       },

@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bc51a79b.css",
+    "main.js": "/static/js/main.64da196a.js",
+    "static/media/Screenshot 2023-07-26 at 6.04.37 PM.png": "/static/media/Screenshot 2023-07-26 at 6.04.37 PM.fffb9d0a78c8f9787da4.png",
+    "static/media/Vastra.png": "/static/media/Vastra.eb2062caf9ed50277ea6.png",
+    "static/media/rangoli.png": "/static/media/rangoli.83ab08349bdc28c1717b.png",
+    "static/media/mobile2.png": "/static/media/mobile2.d9c79e70718a43d5ddae.png",
+    "static/media/ganeshVastra.png": "/static/media/ganeshVastra.6bc27dd49a4e58bd0322.png",
+    "static/media/diya.png": "/static/media/diya.9fa3c1e473c17abe13c2.png",
+    "static/media/MVastra.png": "/static/media/MVastra.e040980059ef903feede.png",
+    "static/media/mala.png": "/static/media/mala.93cb22d2cb1e7f42e566.png",
+    "index.html": "/index.html",
+    "main.bc51a79b.css.map": "/static/css/main.bc51a79b.css.map",
+    "main.64da196a.js.map": "/static/js/main.64da196a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc51a79b.css",
+    "static/js/main.64da196a.js"
+  ]
+}

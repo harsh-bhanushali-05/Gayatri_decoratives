@@ -10,7 +10,7 @@ add_one_product,
 delete_one_product,
 reduce_quantity,
 inc_quantity
-}=require("../controllers /ProductsRoutesManager");
+}=require("../controllers/ProductsRoutesManager");
 
 router.get("/",get_all_products);
 router.get("/New",get_all_products_sorted);

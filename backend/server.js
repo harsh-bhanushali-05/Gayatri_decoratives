@@ -8,7 +8,7 @@ app.use(express.json());
 app.use("/API/Products", products);
 const cors = require('cors');
 app.use((req, res, next) => {
-    res.header('Access-Control-Allow-Origin', '*');
+    res.header('Access-Control-Allow-Origin', 'https://65509721ac022f55419e8de0--fabulous-torte-c69744.netlify.app');
     res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
     res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
     
@@ -19,6 +19,7 @@ app.use((req, res, next) => {
         next();
     }
 });
+
 database.connect(process.env.Mongo_url).then(()=>
 {
     app.listen(process.env.PORT,()=>

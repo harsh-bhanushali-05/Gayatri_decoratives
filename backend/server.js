@@ -5,8 +5,6 @@ const database = require("mongoose");
 const app = express();
 const products = require("./routes/products");
 app.use(express.json());
-app.use("/API/Products", products);
-const cors = require('cors');
 app.use((req, res, next) => {
     res.header('Access-Control-Allow-Origin', 'https://65509721ac022f55419e8de0--fabulous-torte-c69744.netlify.app');
     res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
@@ -19,6 +17,8 @@ app.use((req, res, next) => {
         next();
     }
 });
+app.use("/API/Products", products);
+const cors = require('cors');
 
 database.connect(process.env.Mongo_url).then(()=>
 {

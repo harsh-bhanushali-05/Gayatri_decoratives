@@ -19,9 +19,6 @@ app.use((req, res, next) => {
         next();
     }
 });
-app.use(cors({
-    origin:"*",
-}));
 database.connect(process.env.Mongo_url).then(()=>
 {
     app.listen(process.env.PORT,()=>
